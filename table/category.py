@@ -1,7 +1,4 @@
 from db.model_table import ModelTable
-from db.model_db import Modeldb
-from db.request import SELECT
-import random
 from db.request import UPDATE
 
 

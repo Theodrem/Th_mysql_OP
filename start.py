@@ -1,5 +1,4 @@
 from api import insert_data_from_openfoodfacts
-from shema_generate import shema_generate
 from table.category import Category
 from table.product import Product
 from table.substitute import Substitute
@@ -8,7 +7,7 @@ from db.model_db import Modeldb
 from config import INTERACTION, SUB, NUTRI
 
 
-class Start():
+class Start:
     def __init__(self):
         self.run = True
         self.pseudo_id = 0

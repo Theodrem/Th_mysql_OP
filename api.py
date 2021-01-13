@@ -24,7 +24,6 @@ def insert_data_from_openfoodfacts():
     """
     for category in range(15):
         name_category = current["tags"][category]['name']
-        print(name_category)
         try:
             cat = Category.get_object("name", name_category)
         except Category.ObjectDoesNotExist:
@@ -34,10 +33,9 @@ def insert_data_from_openfoodfacts():
         """
         Get the first hundred categories and add them to our database
         """
-        for page in range(30):
-            url_categorie_specifique = "%s/%s.json" % (current["tags"][category]["url"], page + 1)
-            print(url_categorie_specifique)
-            products = requests.get(url_categorie_specifique)
+        for page in range(5):
+            url_category = "%s/%s.json" % (current["tags"][category]["url"], page + 1)
+            products = requests.get(url_category)
             result = products.json()
 
             try:

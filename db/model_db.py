@@ -28,7 +28,7 @@ class Modeldb:
         Close cursor
         """
 
-        if (self.conn.is_connected()):
+        if self.conn.is_connected():
             self.cursor.close()
             self.conn.close()
 
