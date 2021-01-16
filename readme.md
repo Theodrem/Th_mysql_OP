@@ -10,9 +10,3 @@ The user chooses a product and the program offers a substitute product with a be
 # Technical tools:
 * Backend: Python 3
 * DB Mysql
-
-
-# Local installation:
-* Activate venv in terminal: "envopenff\Scripts\activate.bat"
-
-
