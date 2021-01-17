@@ -5,16 +5,16 @@ INTERACTION = {
     "ASK_PSEUDO": "Avez vous un pseudo 1- Oui / 2- Non",
     "ENTER_PSEUDO": "Entrez votre pseudo",
     "VALUE_ERR": "Valeur incorrect",
-    "USER_ERR": "Utilisateur inexistant"
+    "USER_ERR": "Utilisateur inexistant",
 }
 
 SUB = {
     "SAVE": "Enregistrer le substitut? 1 - oui 2 - non",
     "ID_SUB": "Entrez l'id du substitut",
     "SUBSTITUTE": "Substitut",
-    "SUBSTITUTED": "Produit Substitué"
+    "SUBSTITUTED": "Produit Substitué",
 }
-    
+
 NUTRI = {
     "NUTRI_A": "Le produit sélectionné à un nutriscore égal à A \n Voulez vous l'enregistrer en tant que substitut? 1 - oui / 2 - non"
 }

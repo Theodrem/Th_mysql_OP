@@ -11,12 +11,20 @@ class Product(ModelTable):
         "store",
         "description",
         "openfoodfact_id",
-        "category_id"
+        "category_id",
     ]
     name_table = "Product"
 
-    def __init__(self, name=None, nutriscore=None, url=None, store=None, description=None, openfoodfact_id=None,
-                 category_id=None):
+    def __init__(
+        self,
+        name=None,
+        nutriscore=None,
+        url=None,
+        store=None,
+        description=None,
+        openfoodfact_id=None,
+        category_id=None,
+    ):
         super().__init__()
         self.name = name
         self.nutriscore = nutriscore
@@ -31,16 +39,23 @@ class Product(ModelTable):
         Updates database
         """
         request = UPDATE["update_product"] % (
-        self.name, self.nutriscore, self.url, self.store, self.description, self.openfoodfact_id
-        , self.category_id, self.id)
+            self.name,
+            self.nutriscore,
+            self.url,
+            self.store,
+            self.description,
+            self.openfoodfact_id,
+            self.category_id,
+            self.id,
+        )
 
         self.db.execute_and_save(request)
 
     @classmethod
     def get_proposition_substitute(cls, categoryid, nutriscore, id):
         """
-       Return the substitutes proposition
-       """
+        Return the substitutes proposition
+        """
         request = SELECT["select_proposition_substitute"] % (categoryid, nutriscore, id)
         return cls.get_rows(request)
 

@@ -8,5 +8,9 @@ The user chooses a product and the program offers a substitute product with a be
 
 
 # Technical tools:
-* Backend: Python 3
+* Backend: Python 3.7
 * DB Mysql
+
+#Local installation:
+* Install libraries cmd: "pip install riquirements.txt"
+* Install Interpreter cmd: "C:\Users\UX430\myq\P5_opff\Scripts\activate.bat activate"

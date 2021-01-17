@@ -6,16 +6,17 @@ class Modeldb:
         """
         Contains the connection data to mysql
         """
-        self.conn = MC.connect(host='localhost',
-                               user='theotim',
-                               password='Intelligence97',
-                               database='openfoodfacts'
-                               )
+        self.conn = MC.connect(
+            host="localhost",
+            user="theotim",
+            password="Intelligence97",
+            database="openfoodfacts",
+        )
         self.cursor = self.conn.cursor(buffered=True)
 
     def fetch_rows(self, request):
         """
-        Execute mysql requests 
+        Execute mysql requests
         Returns the list of data
         """
 

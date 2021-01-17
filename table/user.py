@@ -2,11 +2,8 @@ from db.request import INSERT, SELECT, UPDATE
 from db.model_table import ModelTable
 
 
-
 class User(ModelTable):
-    fields = [
-        "pseudo"
-        ]
+    fields = ["pseudo"]
     name_table = "User"
 
     def __init__(self, pseudo=None):
@@ -30,11 +27,3 @@ class User(ModelTable):
         users = self.select_all_where(self.fields[0], self.pseudo)
         for user in users:
             self.id = user.id
-
-
-
-    
-
-    
-    
-        

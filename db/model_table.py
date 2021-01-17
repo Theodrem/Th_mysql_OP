@@ -2,8 +2,8 @@ from db.model_db import Modeldb
 from db.request import INSERT, SELECT, DROP
 
 
-class ModelTable():
-    class ObjectDoesNotExist(Exception): #Custom error class
+class ModelTable:
+    class ObjectDoesNotExist(Exception):  # Custom error class
         pass
 
     fields = []
@@ -99,36 +99,12 @@ class ModelTable():
 
     def save(self):
         """
-         if id exist:
-            update database
-         else:
-             insert
+        if id exist:
+           update database
+        else:
+            insert
         """
         if self.id is None:
             self.insert()
         else:
             self.update()
-
-
-
-
-
-
-
-        
-                
-
-
-
-            
-
-
-
-        
-    
-   
-    
-    
-
-    
-    

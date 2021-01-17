@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0edef954-c508-4f48-bf0c-e64c804661f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/model_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/model_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/model_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/model_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/table/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/table/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table/substitute.py" beforeDir="false" afterPath="$PROJECT_DIR$/table/substitute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/table/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1610439712529</updated>
     </task>
+    <task id="LOCAL-00001" summary="readme update 1.0">
+      <created>1610782568237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610782568237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,10 +100,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme update 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update 1.0" />
   </component>
 </project>

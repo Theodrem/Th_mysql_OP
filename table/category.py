@@ -3,9 +3,7 @@ from db.request import UPDATE
 
 
 class Category(ModelTable):
-    fields = [
-        "name"
-    ]
+    fields = ["name"]
     name_table = "Category"
 
     def __init__(self, name=None):
