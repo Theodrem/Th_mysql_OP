@@ -13,4 +13,4 @@ The user chooses a product and the program offers a substitute product with a be
 
 # Local installation:
 * Install libraries cmd: "pip install riquirements.txt"
-* Install Interpreter cmd: "C:\Users\UX430\myq\P5_opff\Scripts\activate.bat activate"
+* Install Interpreter cmd: "P5_opff\Scripts\activate.bat activate"
