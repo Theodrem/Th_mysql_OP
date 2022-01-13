@@ -9,7 +9,7 @@ class Modeldb:
         self.conn = MC.connect(
             host="localhost",
             user="theotim",
-            password="Intelligence97",
+            password="",
             database="openfoodfacts",
         )
         self.cursor = self.conn.cursor(buffered=True)
